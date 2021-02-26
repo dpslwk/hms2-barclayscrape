@@ -1,0 +1,33 @@
+{
+  "name": "hms2-barclayscrape",
+  "version": "0.0.1",
+  "description": "Wrapper around barclayscrape to upload output to hms2",
+  "main": "hms2-barclayscrape.js",
+  "bin": {
+    "hms2-barclayscrape": "./hms2-barclayscrape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpslwk/hms2-barclayscrape.git"
+  },
+  "author": "Matt Lloyd",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dpslwk/hms2-barclayscrape/issues"
+  },
+  "homepage": "https://github.com/dpslwk/hms2-barclayscrape#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-oauth-client": "^1.3.0",
+    "axios-token-interceptor": "^0.1.0",
+    "barclayscrape": "^3.0.16",
+    "commander": "^6.2.1",
+    "configstore": "^5.0.1",
+    "log-timestamp": "^0.3.0",
+    "ofx-js": "github:bradenmacdonald/ofx-js",
+    "syncprompt": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.3.0"
+  }
+}

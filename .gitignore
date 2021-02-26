@@ -1,0 +1,5 @@
+*.ofx
+*.png
+.DS_Store
+export/
+node_modules
